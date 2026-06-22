@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transition: background 1s ease-in-out;
+  overflow: hidden;
+}
+
+/* DEFAULT */
+.default {
+  background: linear-gradient(135deg, rgba(100, 180, 100, 0.5), rgba(80, 150, 180, 0.5)),
+  url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+/* CLEAR */
+.clear-hot {
+  background: linear-gradient(135deg, rgba(255, 140, 0, 0.7), rgba(255, 69, 0, 0.7)),
+  url('https://images.unsplash.com/photo-1495567720989-cebdbdd97913?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+.clear-mild {
+  background: linear-gradient(135deg, rgba(255, 200, 50, 0.6), rgba(255, 140, 0, 0.6)),
+  url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+.clear-cold {
+  background: linear-gradient(135deg, rgba(100, 150, 200, 0.6), rgba(50, 100, 150, 0.6)),
+  url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+/* CLOUDS */
+.clouds-warm {
+  background: linear-gradient(135deg, rgba(200, 180, 150, 0.6), rgba(150, 150, 180, 0.6)),
+  url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+.clouds-cool {
+  background: linear-gradient(135deg, rgba(100, 120, 150, 0.7), rgba(80, 100, 130, 0.7)),
+  url('https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+/* RAIN */
+.rain {
+  background: linear-gradient(135deg, rgba(80, 100, 150, 0.7), rgba(50, 80, 120, 0.7)),
+  url('https://images.unsplash.com/photo-1501696461415-6bd6660c6742?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+/* THUNDER */
+.thunderstorm {
+  background: linear-gradient(135deg, rgba(50, 50, 80, 0.8), rgba(20, 20, 40, 0.8)),
+  url('https://images.unsplash.com/photo-1500674425229-f692875b0ab7?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+/* SNOW */
+.snow {
+  background: linear-gradient(135deg, rgba(220, 230, 240, 0.8), rgba(190, 210, 230, 0.8)),
+  url('https://images.unsplash.com/photo-1488749807830-63789f68bb65?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+/* NIGHT */
+.night {
+  background: linear-gradient(135deg, rgba(20, 30, 50, 0.85), rgba(10, 20, 40, 0.85)),
+  url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+.night-cold {
+  background: linear-gradient(135deg, rgba(20, 40, 60, 0.85), rgba(10, 25, 45, 0.85)),
+  url('https://images.unsplash.com/photo-1444080748397-f442aa95de8f?w=1200&h=800&fit=crop') center/cover no-repeat;
+}
+
+/* APP UI */
+.app {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  padding: 50px 40px;
+  width: 450px;
+  text-align: center;
+  color: white;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#result p {
+  margin: 10px 0;
+}
