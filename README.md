@@ -179,6 +179,6 @@ For questions or support, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Sravya**
 
 Happy weather checking! 🌤️
